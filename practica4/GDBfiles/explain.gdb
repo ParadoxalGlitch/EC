@@ -83,7 +83,7 @@
     br *main+236
     cont
 ### escribir "123" cuando pida pin, resuelto ya en run
-### imprimir el pin y recordar que esta en 0x601060 tipo int
+### imprimir el pin y recordar que esta en 0x601060 tipo int (en caso personal no está ahi)
 #   p*(int*)0x601060
     p (int )passcode
 ### corregir sobre la marcha EAX para que cmp salga bien
@@ -127,3 +127,42 @@
 ########################################################
 0x404058 pincode
 0x404060 usuario
+
+
+
+
+p(char*)passcork
+
+main+87 0x40120d
+main+120 0x40122e
+main+198 0x40127c
+main+233 0x40129f
+
+
+
+
+
+
+
+Bomba Dificultad 5:
+"dQQYFZvs\n"
+"2752"
+
+
+0x6030b0 <password>
+0x6030ac <passcode>
+
+
+6297722
+
+0x20108e(%rip),%eax
+
+
+
+
+
+330712481894ni
+no6488979356460
+
+
+0x4d, 0x63, 0x6d
